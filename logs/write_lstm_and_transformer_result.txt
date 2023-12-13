@@ -1,0 +1,29 @@
+/userhome/cs2/dingruiw/conda/envs/py310/lib/python3.10/site-packages/torch/nn/modules/transformer.py:282: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+
+LSTM
+              precision    recall  f1-score   support
+
+         LOC       0.59      0.70      0.64      1668
+        MISC       0.59      0.59      0.59       702
+         ORG       0.51      0.59      0.55      1661
+         PER       0.63      0.57      0.60      1617
+
+   micro avg       0.57      0.62      0.60      5648
+   macro avg       0.58      0.61      0.60      5648
+weighted avg       0.58      0.62      0.60      5648
+
+46666 46666
+Transformer
+              precision    recall  f1-score   support
+
+         LOC       0.61      0.77      0.68      1668
+        MISC       0.54      0.60      0.57       702
+         ORG       0.37      0.41      0.39      1661
+         PER       0.23      0.26      0.24      1617
+
+   micro avg       0.43      0.50      0.46      5648
+   macro avg       0.44      0.51      0.47      5648
+weighted avg       0.42      0.50      0.46      5648
+
+46666 46666

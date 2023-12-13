@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/userhome/cs2/dingruiw/NLPA2_final/pred_bert.py", line 6, in <module>
+    from transformers import BertTokenizer, AdamW, WarmupLinearSchedule
+ImportError: cannot import name 'WarmupLinearSchedule' from 'transformers' (/userhome/cs2/dingruiw/conda/envs/py310/lib/python3.10/site-packages/transformers/__init__.py)
